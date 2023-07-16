@@ -43,6 +43,7 @@ teams.sort(key=lambda x: (x != 'FIFA World Cup', x != 'UEFA Euro'))
 
 
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div(
     children=[
