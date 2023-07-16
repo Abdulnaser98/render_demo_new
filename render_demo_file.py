@@ -29,10 +29,10 @@ color_legend_world_cup_men = {
     '1nd Round': 'yellow'
 }
 
-df = pd.read_csv('/Users/abdulnaser/Desktop/render_demo_new/results.csv')  # Replace 'results.csv' with the actual file path or DataFrame name
-UEFA_women_transformed_data = pd.read_csv('/Users/abdulnaser/Desktop/render_demo_new/UEFA_women_transformed_data.csv')
-world_cup_transformed_data = pd.read_csv('/Users/abdulnaser/Desktop/render_demo_new/world_cup_transformed_data.csv')
-men_world_cup_transformed_data = pd.read_csv('/Users/abdulnaser/Desktop/render_demo_new/men_world_cup_transformed_data.csv')
+df = pd.read_csv('results.csv')  # Replace 'results.csv' with the actual file path or DataFrame name
+UEFA_women_transformed_data = pd.read_csv('UEFA_women_transformed_data.csv')
+world_cup_transformed_data = pd.read_csv('world_cup_transformed_data.csv')
+men_world_cup_transformed_data = pd.read_csv('men_world_cup_transformed_data.csv')
 
 
 df['date'] = pd.to_datetime(df['date'])
